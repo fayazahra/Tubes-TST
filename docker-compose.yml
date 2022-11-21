@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  tubestst2:
+    image: tubestst2
+    build:
+      context: .
+      dockerfile: ./Dockerfile
