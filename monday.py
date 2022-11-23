@@ -10,7 +10,7 @@ from tortoise.models import Model
 
 app = FastAPI()
 
-JWT_SECRET = 'myjwtsecret'
+JWT_SECRET = 'SECRET'
 
 class User(Model):
     id = fields.IntField(pk=True)
